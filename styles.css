@@ -1,0 +1,108 @@
+html{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+@font-face {
+    font-family: "Cigars";
+    src: url("fonts/HW_Cigars_Trial_Regular.otf");
+}
+@font-face {
+    font-family: "MartianMono";
+    src: url("fonts/MartianMono-Light.otf");
+}
+
+h1{
+    color: #4A4A4A;
+    text-align: center; 
+    font-family: "scotch-text-compressed", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17vw;
+
+    line-height: normal;
+    letter-spacing: -2.76px;
+    text-transform: uppercase;
+    margin: 5vh 0 1vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9vw;
+}
+
+a{
+    font-family: "Cigars", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+p{
+    font-family: "MartianMono", monospace;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; 
+    margin: 2vh 8vw;
+}
+
+.platypus{
+    color: #00d63d;
+}
+
+.off{
+    color: #4A4A4A;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+}
+
+.fluores{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.fluores img{
+    position: absolute;
+}
+@media screen and (max-width: 480px) {
+    html{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+   padding: 0;
+   border: 0;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+   padding: 0;
+   border: 0;
+    }
+  }
