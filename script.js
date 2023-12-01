@@ -24,10 +24,10 @@
 
         if (activeItem !== null) {
           if (!activeItem.xOffset) {
-            activeItem.xOffset = 0;          
+            activeItem.xOffset = 0;
           }
 
-          if (!activeItem.yOffset) {                                                                              
+          if (!activeItem.yOffset) {
             activeItem.yOffset = 0;
           }
 

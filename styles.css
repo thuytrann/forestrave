@@ -69,6 +69,14 @@ p{
     color: #00d63d;
 }
 
+.squirrel{
+    color: #FF8BD8;
+}
+
+.springhare{
+    color: #FF0005;
+}
+
 .off{
     color: #4A4A4A;
 }
@@ -87,6 +95,7 @@ p{
 
 .fluores img{
     position: absolute;
+    width: 100vw;
 }
 
 #glow{
@@ -94,7 +103,7 @@ p{
     -webkit-mask-image: url(img/mask.svg);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: 50%;
-    /*-webkit-mask-position-x: 50%;*/
+    -webkit-mask-position: 50%;
 }
 @media screen and (max-width: 480px) {
     html{
