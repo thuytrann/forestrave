@@ -95,6 +95,18 @@ p{
 
 .fluores img{
     position: absolute;
+    
+}
+
+.platypus img{
+    width: 70vw;
+}
+
+.squirrel img{
+    width: 70vw;
+}
+
+.springhare img{
     width: 100vw;
 }
 
