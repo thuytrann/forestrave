@@ -76,11 +76,15 @@
 
     function setTranslate(xPos, yPos, el) {
       el.style.transform = "translate3d(" + 0 + "px, " + 0 + "px, 0)";
+      console.log(xPos, yPos,el.width);
+      xPos = xPos + (el.width*.3);
+      yPos = yPos + (el.height*.3);
       $(document).ready(function(){
       $('#glow').css('-webkit-mask-position-x', xPos );
       $('#glow').css('-webkit-mask-position-y', yPos );
+      console.log(xPos, yPos);
     });
-    console.log(xPos)
+  
       /*glow.addEventListener("change", (event) => { 
         element.style.webkitMaskPosition = xPos;
         console.log(element.style.webkitMaskPosition,xPos);
