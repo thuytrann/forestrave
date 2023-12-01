@@ -89,10 +89,12 @@ p{
     position: absolute;
 }
 
-.glow{
+#glow{
+    color: #00d63d;
     -webkit-mask-image: url(img/mask.svg);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: 50%;
+    /*-webkit-mask-position-x: 50%;*/
 }
 @media screen and (max-width: 480px) {
     html{
