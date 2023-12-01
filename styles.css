@@ -88,6 +88,12 @@ p{
 .fluores img{
     position: absolute;
 }
+
+.glow{
+    -webkit-mask-image: url(img/mask.svg);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 50%;
+}
 @media screen and (max-width: 480px) {
     html{
         width: 100vw;
