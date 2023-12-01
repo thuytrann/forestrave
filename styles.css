@@ -32,12 +32,12 @@ h1{
     font-family: "scotch-text-compressed", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 17vw;
+    font-size: 18vw;
 
     line-height: normal;
     letter-spacing: -2.76px;
     text-transform: uppercase;
-    margin: 5vh 0 1vh;
+    margin: 4vh 0 1vh;
 }
 nav{
     display: flex;
@@ -48,7 +48,7 @@ nav{
 
 a{
     font-family: "Cigars", serif;
-    font-size: 18px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -58,11 +58,11 @@ a{
 
 p{
     font-family: "MartianMono", monospace;
-    font-size: 10px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%; 
-    margin: 2vh 8vw;
+    margin: 2vh 6vw;
 }
 
 .platypus{
