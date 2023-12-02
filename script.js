@@ -3,6 +3,7 @@
     var glow = document.querySelector("#glow");
     var maskSlider = document.getElementById('molecule');
     var activeItem = null;
+    var guide = document.getElementById('guide');
 
     var active = false;
 
@@ -79,9 +80,11 @@
       console.log(xPos, yPos,el.width);
       xPos = xPos + (el.width*.3);
       yPos = yPos + (el.height*.3 );
+      guide.style.opacity = "0";
       $(document).ready(function(){
       $('#glow').css('-webkit-mask-position-x', xPos );
       $('#glow').css('-webkit-mask-position-y', yPos );
+
       console.log(xPos, yPos);
     });
   

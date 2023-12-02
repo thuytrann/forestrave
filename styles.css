@@ -114,9 +114,32 @@ p{
     color: #00d63d;
     -webkit-mask-image: url(img/mask.svg);
     -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: 50%;
+    -webkit-mask-size: 70%;
     -webkit-mask-position: 50%;
+
 }
+
+#guide{
+    font-family: "MartianMono", monospace;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;  
+    color: black;
+    opacity: 1;
+    transition: all 1s cubic-bezier(0.22, 0.44, 0, 1);
+
+    width: 110px;
+    text-align: center;
+    position: absolute;
+    bottom: 23vh;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
 @media screen and (max-width: 480px) {
     html{
         width: 100vw;
