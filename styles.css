@@ -140,6 +140,10 @@ p{
     z-index: 2;
 }
 
+.pl-sh{
+    -webkit-mask-size: 50%;
+}
+
 @media screen and (max-width: 480px) {
     html{
         width: 100vw;

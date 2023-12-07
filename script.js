@@ -84,7 +84,7 @@
       $(document).ready(function(){
       $('#glow').css('-webkit-mask-position-x', xPos );
       $('#glow').css('-webkit-mask-position-y', yPos );
-
+   
       console.log(xPos, yPos);
     });
   
